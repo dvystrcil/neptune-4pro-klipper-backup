@@ -14,6 +14,9 @@
         "use_magic_baud": false,
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
-        "exclude_from_batch": false
+        "exclude_from_batch": false,
+        "last_flashed": "2026-03-01 18:59:22",
+        "flashed_version": "v0.12.0-743-g1f4806a3",
+        "flashed_commit": "1f4806a3819a"
     }
 ]
