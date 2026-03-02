@@ -2,7 +2,7 @@
     {
         "name": "Pico MMU",
         "id": "/dev/serial/by-id/usb-Klipper_stm32g0b1xx_3F00460010504B5735313720-if00",
-        "profile": "",
+        "profile": "BTT EBB42",
         "method": "serial",
         "interface": "can0",
         "baudrate": 250000,
