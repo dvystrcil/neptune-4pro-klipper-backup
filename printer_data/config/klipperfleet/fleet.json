@@ -34,6 +34,6 @@
         "use_magic_baud": false,
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
-        "exclude_from_batch": false
+        "exclude_from_batch": true
     }
 ]
