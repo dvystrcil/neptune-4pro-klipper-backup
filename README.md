@@ -44,7 +44,7 @@ The main entry point. Contains only:
 | `macros.cfg` | `PRINT_START`, `PRINT_END`, `PAUSE`, `RESUME`, `CANCEL_PRINT`, `_CLIENT_EXTRUDE`, parking macros (`PARK_TOOLHEAD`, `PARK_CENTER`), PID tuning macros |
 | `led-control.cfg` | Frame and part lighting via GPIO shell commands |
 | `squiggly_purge.cfg` | Squiggly purge line macro (replaces straight purge line) |
-| `sp_mmu.cfg` + `sp_mmu_code.cfg` | Stealthburner MMU (ERCF-style) settings and logic — **must load last** |
+| `sp_mmu.cfg` + `sp_mmu_code.cfg` | [LH Stinger Pico MMU](https://github.com/lhndo/LH-Stinger/wiki/Pico-MMU) settings and logic — **must load last** |
 | `moonraker_obico_macros.cfg` | Obico (The Spaghetti Detective) integration macros — **must load last** |
 
 #### Calibration
@@ -82,6 +82,6 @@ The main entry point. Contains only:
 | Extruder | LDO Orbiter v2.5 |
 | Y-axis | AWD (dual stepper_y + stepper_y1) |
 | Z-axis | Dual Z with z_tilt |
-| MMU | Stealthburner MMU (PICO_MMU — RP2040) |
+| MMU | [LH Stinger Pico MMU](https://github.com/lhndo/LH-Stinger/wiki/Pico-MMU) (PICO_MMU — RP2040) |
 | Enclosure | Bentobox filtration |
 | Remote access | Obico (moonraker-obico) + `neptune.sirddail.net` |
