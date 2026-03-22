@@ -84,4 +84,4 @@ The main entry point. Contains only:
 | Z-axis | Dual Z with z_tilt |
 | MMU | [LH Stinger Pico MMU](https://github.com/lhndo/LH-Stinger/wiki/Pico-MMU) (PICO_MMU — RP2040) |
 | Enclosure | Bentobox filtration |
-| Remote access | Obico (moonraker-obico) + `neptune.sirddail.net` |
+| Remote access | Obico (moonraker-obico) |
