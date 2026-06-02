@@ -58,7 +58,7 @@ The main entry point. Contains only:
 | File | Contents |
 |---|---|
 | `klipper-backup.cfg` | `update_git` macro to trigger this backup |
-| `klipper-maintenance.cfg` | KlipperMaintenance integration |
+| `klipper-maintenance.cfg` | KlipperMaintenance integration, plus `UPDATE_MAINT` helper macro (validates NAME against tracked `[maintain ...]` components, lists them when called blank, optional `HOURS=` passthrough) |
 | `crowsnest.conf` | Crowsnest webcam service config |
 | `moonraker.conf` | Moonraker API server config |
 
