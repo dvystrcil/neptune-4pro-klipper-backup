@@ -26,7 +26,7 @@ The main entry point. Contains only:
 | `steppers.cfg` | X/Y/Z stepper motors + TMC2209 UART drivers |
 | `th-nitehawk.cfg` | LDO Nitehawk-36 toolboard MCU, part cooling fan, heatbreak fan, toolhead LEDs, ADXL345 |
 | `extruder.cfg` | Extruder tuning (rotation_distance, pressure_advance), verify_heater, firmware_retraction, M109 override |
-| `bed.cfg` | Dual-zone bed heaters (inner + outer), verify_heaters, M140/M190 overrides for dual-zone control, M141/M191 chamber heating |
+| `bed.cfg` | Dual-zone bed heaters (inner + outer), verify_heaters, M140/M190 overrides for dual-zone control |
 | `fans.cfg` | Bentobox filtration fan, controller temperature fan, M106 override (routes P3 to Bentobox) |
 | `temperature_sensors.cfg` | Rockchip host, STM32 MCU, and chamber temperature sensors |
 | `chamber-ebb42.cfg` | BTT EBB42 (STM32G0B1) chamber controller — circulation fan (PA0) + SSR-triggered chamber heater (PA1) using existing chamber thermistor via `temperature_combined` |
