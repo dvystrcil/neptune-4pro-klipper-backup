@@ -84,5 +84,6 @@ The main entry point. Contains only:
 | Y-axis | AWD (dual stepper_y + stepper_y1) |
 | Z-axis | Dual Z with z_tilt |
 | MMU | [LH Stinger Pico MMU](https://github.com/lhndo/LH-Stinger/wiki/Pico-MMU) (PICO_MMU — RP2040) |
+| Chamber controller | BTT EBB42 (STM32G0B1) — circulation fan + SSR chamber heater |
 | Enclosure | Bentobox filtration |
 | Remote access | Obico (moonraker-obico) |
